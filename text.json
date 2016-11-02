@@ -1,0 +1,44 @@
+{
+  "bannerText": [
+    {
+      "stepTitle": "Welcome",
+      "stepDescription": "Click ‘Become a member’ button to proceed.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "Profile",
+      "stepDescription": "Click ‘Close’ button, find and click wine in the list of products.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "Special Offer",
+      "stepDescription": "Click ‘Promotion Products’ tab, 2nd item in the main menu.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "Promotion Products",
+      "stepDescription": "Click ‘Rewards’ tab, 6th item in the main menu.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "Rewards",
+      "stepDescription": "Click ‘Chat’ tab, 7th item in the main menu.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "Chat",
+      "stepDescription": "Click ‘To Do List’ tab, 4th item in the main menu.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "To Do List",
+      "stepDescription": "Click ‘History’ tab, 5th item in the main menu.",
+      "buttonTitle": "Next step"
+    },
+    {
+      "stepTitle": "History",
+      "stepDescription": "Click ‘Log Out’ tab, the last one in the main menu.",
+      "buttonTitle": "Finish"
+    }
+  ]
+}

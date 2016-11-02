@@ -1,0 +1,52 @@
+
+.icon-cross {
+	display: block;
+	border-radius: 50%;
+	width: 28px;
+	height: 28px;
+	background: #417632 url("../img/btn-hide.png") no-repeat center;
+}
+
+.close-x {
+	position: absolute;
+	top: 64px;
+	left: -15px;
+	z-index: 1;
+	display: none;
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba(18,19,20,0.6);
+}
+
+.slideover {
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	z-index: 10000;
+	width: 420px;
+	right: -420px;
+	-webkit-overflow-scrolling: touch;
+	transition: all 0.3s ease;
+}
+
+.sld-welcome {
+	width: 350px;
+	right: -350px;
+}
+
+.slideover.opened {
+	right: 0;
+	position: absolute;
+}
+
+
+
+

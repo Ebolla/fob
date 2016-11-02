@@ -1,0 +1,163 @@
+
+.tabs-right {
+	width: 420px;
+
+	.nav-tabs {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 70px;
+		background-color: #414e5f;
+		border: 0 none;
+
+		li {
+			float: none;
+			margin: 0;
+
+			a {
+				margin-right: 0;
+				border: 0;
+				padding: 0;
+				border-radius: 0;
+
+				&:hover,
+				&:focus{
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+	border:0;
+}
+
+.tab-content {
+	margin-right: 70px;
+
+	.tab-pane {
+		display: none;
+		background-color: #fff;
+		padding: 0;
+		overflow-y: auto;
+		height: 100%;
+		overflow-x: hidden;
+	}
+
+	.active { display: block; }
+}
+
+
+.tab-icon {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	li.active & {
+		background-color: #ffffff;
+	}
+
+	&.menu-offer {
+		background-image: url("../img/icon-menu-offer.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-offer-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-offer-active.png");
+		}
+	}
+	&.menu-promo {
+		background-image: url("../img/icon-menu-promo.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-promo-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-promo-active.png");
+		}
+
+	}
+	&.menu-profile {
+		background-image: url("../img/icon-menu-profile.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-profile-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-profile-active.png");
+		}
+	}
+	&.menu-todo {
+		background-image: url("../img/icon-menu-todo.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-todo-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-todo-active.png");
+		}
+	}
+	&.menu-history {
+		background-image: url("../img/icon-menu-history.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-history-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-history-active.png");
+		}
+
+	}
+	&.menu-rewards {
+		background-image: url("../img/icon-menu-rewards.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-rewards-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-rewards-active.png");
+		}
+
+	}
+	&.menu-chat {
+		background-image: url("../img/icon-menu-chat.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-chat-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-chat-active.png");
+		}
+
+	}
+
+	&.menu-logout {
+		
+		&:before {
+			content: "";
+			display: block;
+			height: 1px;
+			width: 30px;
+			opacity: 0.2;
+			background-color: #ffffff;
+			margin: 0 auto;
+		}
+		
+		background-image: url("../img/icon-menu-logout.png");
+
+		li:hover & {
+			background-image: url("../img/icon-menu-logout-hover.png");
+		}
+		li.active & {
+			background-image: url("../img/icon-menu-logout-active.png");
+		}
+	}
+
+}

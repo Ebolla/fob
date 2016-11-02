@@ -1,0 +1,75 @@
+
+.wizard-banner {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 10001;
+	width: 350px;
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+	padding: 0 40px;
+	background: #ffffff url("../img/wizard-bg.png") no-repeat 156px center;
+
+	.step {
+		margin: 28px 0 16px;
+	}
+
+	.step-name {
+		font-size: 16px;
+		line-height: 1.19;
+		color: #aeb7c0;
+	}
+
+	.step-description {}
+
+	.btn-holder {
+		margin: 20px 0;
+		text-align: left;
+	}
+
+	.btn-default {
+
+		border-radius: 6px;
+		background-color: #ffffff;
+		border: solid 2px #669de6;
+		color: #5591c4;
+		font-weight: 500;
+		text-decoration: none;
+		height: 40px;
+		line-height: 37px;
+		padding: 0 37px;
+
+		.button-text {}
+
+		.button-icon {
+			height: 18px;
+			width: 18px;
+			margin-left: 10px;
+			vertical-align: -4px;
+		}
+
+		.icon-next svg {
+			color: #5591c4;
+			fill: #5591c4;
+			width: 18px;
+			height: 18px;
+
+		}
+
+		&:hover {
+			background-color: #669de6;
+			color: #fff;
+			box-shadow: none;
+			text-shadow: none;
+
+			.icon-next svg {
+				color: #fff;
+				fill: #fff;
+			}
+
+		}
+	}
+
+
+}

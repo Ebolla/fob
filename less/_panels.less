@@ -1,0 +1,360 @@
+
+
+
+
+.spc-message {
+	text-align: center;
+	padding: 5px 30px 15px;
+	background: url("../img/underline.png") no-repeat center bottom;
+}
+
+.panel-content {
+	width: 292px;
+	margin: 0 auto;
+
+	.spc-message {
+		padding: 5px 0 15px;
+	}
+
+
+}
+
+p {
+	margin: 24px 0;
+}
+
+
+// ===========================  Profile
+
+
+.profile-card {
+	background: url("../img/underline.png") no-repeat center bottom;
+	padding-bottom: 15px;
+}
+
+.recent-actions {
+	background: url("../img/Recent-actions.png") no-repeat center;
+	height: 250px;
+}
+
+.membership {
+	background: url("../img/Membership.png") no-repeat center;
+	height: 750px;
+}
+
+.have-any-questions {
+	height: 200px;
+	background: url("../img/haveAnyQuestions.png") repeat-x center;
+	margin: 20px -29px 0;
+	position: absolute;
+	bottom: 0;
+	width: 350px;
+}
+
+#panelProfile .panel-content {
+	margin-bottom: 200px; // equals .have-any-questions div height
+}
+
+
+// =============================== Promo
+
+
+.offer-counter {
+	width: 230px;
+	height: 230px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin: -156px auto 5px;
+	position: relative;
+
+	img {
+		display: block;
+	}
+
+	span {
+		font-family: Roboto Slab;
+		font-size: 32px;
+		font-weight: bold;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 0.66;
+		letter-spacing: 0.8px;
+		text-align: center;
+		color: #aeb7c0;
+		display: block;
+		margin-top: -127px;
+	}
+
+}
+
+.promo-product {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+
+// =================== Rewards
+
+.rewards-item {
+	overflow: hidden;
+	margin: 0 -10px;
+	background: rgba(0,0,0,0);
+	transition: all 0.1s ease-in-out;
+	padding: 10px;
+	cursor: pointer;
+
+	.rewards-icon {
+		float: left;
+		width: 60px;
+		height: 60px;
+	}
+
+	.rewards-text {
+		overflow: hidden;
+		padding: 0 15px;
+
+		p {
+			margin: 0 0 10px;
+		}
+	}
+
+	&.rewards-disabled {
+		opacity: 0.6;
+		cursor: default;
+
+		&:hover {
+			background: none;
+			box-shadow: none;
+		}
+	}
+
+
+	&:hover {
+		// background: rgba(0,0,0,0.05);
+		// box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+	}
+}
+
+.popover {
+	border: 2px solid #e7e7e7;
+	box-shadow: none;
+
+}
+
+.popover.bottom {
+	margin-top: -20px;
+	max-width: 200px;
+	margin-left: 20px;
+
+	&> .arrow {
+		border-bottom-color: #e7e7e7;
+
+		&:after {
+			top: 2px;
+		}
+	}
+}
+.popover-content {
+	padding: 14px 20px;
+}
+
+
+
+// ============================== Chat
+
+.chat-operator {
+//	text-align: center;
+}
+
+.chat-panel {
+	padding: 10px 0;
+	height: 560px;
+	overflow: hidden;
+}
+
+.chat-panel-feed {
+	position: relative;
+	top: 100%;
+	transition: top 0.5s ease;
+
+	&.show1 {
+		top: 17%;
+	}
+
+	&.show1.show2 {
+		top: 0;
+	}
+
+	.msg {
+		padding: 5px 0;
+		position: relative;
+	}
+}
+
+
+#msg1 {
+	left: -300px;
+	transition: all 0.2s ease;
+}
+
+#msg2 {
+	right: -300px;
+	transition: all 0.2s ease 0.2s;
+}
+
+#msg3 {
+	left: -300px;
+	transition: all 0.2s ease 0.4s;
+}
+
+#panelChat.active {
+	.msg {
+		left: 0;
+		right: 0;
+	}
+}
+
+
+
+
+.chat-write-message {
+	height: 76px;
+	background-color: #ebebeb;
+	padding: 16px 30px;
+
+	.input-message {
+		position: relative;
+		height: 44px;
+		line-height: 44px;
+		border-radius: 8px;
+		background: #ffffff;
+
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		text-align: left;
+		color: #c9c9c9;
+
+		padding: 0 10px;
+
+		.reply {
+			position: absolute;
+			background: #fff;
+			top: 0;
+			left: 10px;
+			color: #343434;
+			display: none;
+		}
+
+		.send-icon {
+			position: absolute;
+			display: inline-block;
+			top:10px;
+			right: 10px;
+			width: 24px;
+			height: 24px;
+			background: transparent url("../img/icon-send.png") no-repeat center;
+			cursor: pointer;
+		}
+
+	}
+
+}
+
+
+// ======================= TodoPanel
+
+
+.todo-next {
+	position: relative;
+	height: 50px;
+	margin: 5px 0;
+	background: url("../img/img-gold-platinum_cr.png") no-repeat center;
+
+	.platinum {
+		position: absolute;
+		left: 169px;
+		top: 5px;
+		width: 40px;
+		height: 40px;
+		background: url("../img/platinum.png") no-repeat center;
+	}
+
+}
+
+.todo-progress {
+	margin: 15px 0;
+
+	.progress-bg {
+		width: 290px;
+		height: 6px;
+		border-radius: 3px;
+		background-color: #ebebeb;
+	}
+	.pr-bar {
+		height: 6px;
+		border-radius: 3px;
+		background-color: #ffba43;
+		width: 75%;
+	}
+
+}
+
+
+.todo-list {
+
+	position: relative;
+	height: 550px;
+	overflow: hidden;
+
+	.todo-list-panel {
+		position: relative;
+		top: 100%;
+		transition: top 0.5s ease;
+
+		&.showTodo {
+			top:0;
+		}
+
+	}
+
+}
+
+// ======================= History
+
+
+.history-filters {
+	text-align: center;
+
+	.btn-group {
+		width: 99%;
+
+		.btn {
+			width: 33%;
+			height: 40px;
+			color: inherit;
+			border-radius: 6px;
+			background-color: #ffffff;
+			border: solid 2px #ebebeb;
+			background-image: none;
+			box-shadow: none;
+
+			&:focus,
+			&:active {
+				outline: 0 none;
+			}
+
+			&:hover {
+				background-color: #ebebeb;
+			}
+
+			&:first-child {
+				color: #ffffff;
+				background-color: #84c073;
+				border-color: #84c073;
+			}
+		}
+	}
+
+}

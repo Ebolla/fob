@@ -1,0 +1,476 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/jquery.slide-over.css">
+
+    <!--<link rel="stylesheet" href="css/pie-chart.css">-->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <script src="js/vendor/jquery-1.11.2.js"></script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/jquery.slide-over.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="main-site">
+        <a href="#slideover1" class="trigger-slideover tr1" data-slideover="openWelcome">Trigger 1</a>
+        <a href="#slideover2" class="trigger-slideover tr2" data-slideover="open2">Trigger 2</a>
+        <div class="site-img">
+            <img src="img/Menigo_homepage.png">
+            <a class="bottle-link" href="#" data-trans="toDetails"></a>
+        </div>
+        <div class="site-img-details">
+            <img src="img/Menigo_homepage-details.png" />
+        </div>
+    </div>
+
+    <div class='overlay' data-slideover='close'></div>
+
+
+    <div id="slideover1" class="slideover sld-welcome">
+
+        <a href='#' class='close-x' data-slideover='close'><span class='icon-cross'></span></a>
+
+        <div class="welcome-banner">
+            <img src="img/img-welcome.png" />
+        </div>
+
+        <div class="welcome-badge">
+            <img src="img/welcome-badge.png" />
+        </div>
+
+        <div class="spc-message">
+            <h3>Welcome Per Andersson!</h3>
+            <h2>Become a part of<br>Applied Loyalty Program now!</h2>
+            <p>Welcome to our loyalty program. If you join you will benefit from personal offers and unique rewards. Become a loyal customer right now.</p>
+        </div>
+
+        <div class="container-fluid spc-wrap">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="icon-badge free-shipping"></div>
+                    Free
+                    shipping
+                </div>
+                <div class="col-xs-4">
+                    <div class="icon-badge assistant"></div>
+                    Personal
+                    assistant
+                </div>
+                <div class="col-xs-4">
+                    <div class="icon-badge special-prices"></div>
+                    Special
+                    prices
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-holder">
+            <a href="#" class="btn btn-primary" data-slideover="open2">Become a member</a>
+        </div>
+
+        <a class="regular-link" href="#" data-slideover='close'>Not now</a>
+
+    </div> <!--  // slideover1 -->
+
+    <div id="slideover2" class="slideover">
+
+        <a href='#' class='close-x' data-slideover='close'><span class='icon-cross'></span></a>
+
+        <div class="tabs-right">
+            <ul class="nav nav-tabs">
+                <li class="c-menu__offer"><a href="#panelOffer"
+                        data-toggle="tab"><span class="tab-icon menu-offer"></span></a></li>
+                <li class="c-menu__promotion-offer"><a href="#panelPromo" data-toggle="tab"><span class="tab-icon menu-promo"></span></a></li>
+                <li class="c-menu__profile active"><a href="#panelProfile" data-toggle="tab"><span
+                        class="tab-icon menu-profile"></span></a></li>
+                <li
+                        class="c-menu-todo"><a href="#panelTodo"
+                        data-toggle="tab"><span class="tab-icon menu-todo"></span></a></li>
+                <li class="c-menu__history"><a href="#panelHistory" data-toggle="tab"><span class="tab-icon menu-history"></span></a></li>
+                <li class="c-menu__rewards"><a href="#panelRewards"
+                        data-toggle="tab"><span class="tab-icon menu-rewards"></span></a></li>
+                <li class="c-menu-chat"><a href="#panelChat" data-toggle="tab"><span class="tab-icon menu-chat"></span></a></li>
+                <li><a href="http://appliedgroup.se/secured/index.html" data-slideover='close'><span class="tab-icon menu-logout"></span></a></li>
+            </ul>
+
+            <div class="tab-content">
+
+                <!-- panel Offer -->
+                <div class="tab-pane" id="panelOffer">
+                    <div class="offer-banner">
+                        <img src="img/img-offer.png" />
+                    </div>
+                    <div class="offer-counter">
+                        <!--<img src="img/countdown.png" />
+                        <span>00:01:59</span>-->
+
+                        <div class="c-counter__image"></div>
+                        <div class="c-counter__wrapper-elements">
+                            <div class="c-counter__waves"></div>
+                            <span class="c-counter__timer">12:02:00</span>
+                        </div>
+                    </div>
+                    <div class="spc-message">
+                        <h2>Limited offer - buy now<br> and get the discount:<br><span class="large">-10%</span></h2>
+                        <p>You may use your limited offer for this product right now or you may loose the deal.</p>
+                    </div>
+                    <div class="btn-holder">
+                        <a href="#" class="btn btn-primary btn-lg">
+                            <span class="button-icon icon-promo"></span>
+                            Buy now for $40
+                        </a>
+                    </div>
+                    <a class="regular-link" href="#" data-slideover='close'>No, thank you</a>
+                </div>
+                <!-- // panel Offer -->
+
+                <!-- panel Promo -->
+                <div class="tab-pane" id="panelPromo">
+                    <div class="panel-content">
+                        <a class="applied-loyalty-logo" href="#"></a>
+                        <div class="spc-message">
+                            <h2>Promotion products</h2>
+                            <p>Per, we appreciate your loyalty and provide a limited time offers with special prices for products you might like. Don’t miss your chance and buy now!</p>
+                            <!--<img src="img/offer-back-counter.png" />-->
+
+                            <div class="c-offers__wrapper">
+                                <p class="c-offers__title">Offers expires by:</p>
+                                <div class="c-offers__time-wrapper">
+                                    <div class="c-offers__value-block">
+                                        <div class="c-offers__value-wrapper">
+                                            <span class="c-offers__value-hours">23</span>
+                                        </div>
+                                        <span class="c-offers__value-description">hours</span>
+                                    </div>
+                                    <span class="c-offers__delimeter">:</span>
+                                    <div class="c-offers__value-block">
+                                        <div class="c-offers__value-wrapper">
+                                            <span class="c-offers__value-minutes">12</span>
+                                        </div>
+                                        <span class="c-offers__value-description">minutes</span>
+                                    </div>
+                                    <span class="c-offers__delimeter">:</span>
+                                    <div class="c-offers__value-block">
+                                        <div class="c-offers__value-wrapper">
+                                            <span class="c-offers__value-seconds">01</span>
+                                        </div>
+                                        <span class="c-offers__value-description">seconds</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promo-product">
+                            <img src="img/promo-product-1.png">
+                        </div>
+                        <div class="promo-product">
+                            <img src="img/promo-product-2.png">
+                        </div>
+                        <div class="promo-product">
+                            <img src="img/promo-product-3.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- // panel Promo -->
+
+                <!-- panel Profile -->
+                <div class="tab-pane active" id="panelProfile">
+                    <div class="panel-content">
+                        <a class="applied-loyalty-logo" href="#"></a>
+                        <div class="profile-card">
+                            <img src="img/profile-card.png">
+                        </div>
+                        <div class="charts-animate">
+                            <div class="charts-pie">
+                                <div class="c-pie-chart__wrapper"></div>
+
+                                <span class="sub">Current score</span>
+                            </div>
+                            <div class="charts-line">
+                                <div class="c-line-chart__wrapper">
+                                    <canvas class="c-chart__canvas"></canvas>
+                                </div>
+                                <span class="sub">Dynamic of score changes</span>
+                            </div>
+                        </div>
+                        <div class="recent-actions"></div>
+                        <div class="membership"></div>
+                        <div class="have-any-questions"></div>
+                    </div>
+                </div>
+                <!-- // panel Profile -->
+
+                <!-- panelTodo -->
+                <div class="tab-pane" id="panelTodo">
+
+                    <div class="panel-content">
+
+                        <a class="applied-loyalty-logo" href="#"></a>
+                        <div class="spc-message">
+
+                            <h2>To-do list</h2>
+                            <p>Perfom actions, complete your tasks and get more AL points to grow up to next membership level and get new rewards!</p>
+
+                            <div class="todo-next">
+                                <div class="platinum pulse"></div>
+                            </div>
+
+                            <div class="todo-progress">
+                                <div class="progress-bg">
+                                    <div class="pr-bar animProgress"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="todo-list">
+                            <div class="todo-list-panel">
+
+                                <div class="todo-list-item" id="todo1">
+                                    <img src="img/todo-list-item-1.png" />
+                                </div>
+                                <div class="todo-list-item" id="todo2">
+                                    <img src="img/todo-list-item-2.png" />
+                                </div>
+                                <div class="todo-list-item" id="todo3">
+                                    <img src="img/todo-list-item-3.png" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- // panelTodo -->
+
+                <!-- panel History -->
+                <div class="tab-pane" id="panelHistory">
+                    <div class="panel-content">
+                        <a class="applied-loyalty-logo" href="#"></a>
+
+                        <h2>Loyalty actions history</h2>
+                        <p>All actions you’ve been performed presented below. You can see how many points and what kind of rewards you’ve got.</p>
+
+                        <div class="charts-animate">
+                            <div class="charts-pie">
+                                <div class="c-pie-chart__wrapper"></div>
+
+                                <span class="sub">Current score</span>
+                            </div>
+                            <div class="charts-line">
+                                <div class="c-line-chart__wrapper">
+                                    <canvas class="c-chart__canvas"></canvas>
+                                </div>
+                                <span class="sub">Dynamic of score changes</span>
+
+                            </div>
+                        </div>
+
+                        <div class="history-filters">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default">All</button>
+                                <button type="button" class="btn btn-default">Points</button>
+                                <button type="button" class="btn btn-default">Rewards</button>
+                            </div>
+                        </div>
+
+                        <div class="history-list">
+                            <img src="img/history-list-img.png">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- panel Rewards -->
+                <div class="tab-pane" id="panelRewards">
+
+                    <div class="panel-content">
+                        <a class="applied-loyalty-logo" href="#"></a>
+                        <div class="spc-message">
+                            <h2>Rewards & Badges</h2>
+                            <p>For been loyal you recieve benefits, such as valuable rewards and badges, that emphasize your individuality. Reach the next membership level to get more! </p>
+                        </div>
+                        <br>
+                        <div class="rewards-item">
+                            <div class="rewards-icon">
+                                <img src="img/icon-free-shipping.png" />
+                            </div>
+                            <div class="rewards-text">
+                                <h4>Free shipping</h4>
+                                <p>for all orders within Sweden</p>
+                            </div>
+                        </div>
+                        <div class="rewards-item" data-toggle="popover" data-placement="bottom"
+                                data-trigger="click"
+                                data-content="On all purchases 10Kr and above in November">
+                            <div class="rewards-icon">
+                                <img src="img/icon-discount.png" />
+                            </div>
+                            <div class="rewards-text">
+                                <h4>Discount 15%</h4>
+                                <p>additional discount on your order</p>
+                            </div>
+                        </div>
+                        <div class="rewards-item">
+                            <div class="rewards-icon">
+                                <img src="img/icon-special-prices.png" />
+                            </div>
+                            <div class="rewards-text">
+                                <h4>Special prices</h4>
+                                <p>on your next purchase</p>
+                            </div>
+                        </div>
+                        <div class="rewards-item">
+                            <div class="rewards-icon">
+                                <img src="img/icon-assistant.png" />
+                            </div>
+                            <div class="rewards-text">
+                                <h4>Personal assistant</h4>
+                                <p>available 24/7</p>
+                            </div>
+                        </div>
+                        <div class="rewards-item rewards-disabled">
+                            <div class="rewards-icon">
+                                <img src="img/icon-one-day-delivery.png" />
+                            </div>
+                            <div class="rewards-text">
+                                <h4>One-day delivery</h4>
+                                <p>for Platinum members only</p>
+                            </div>
+                        </div>
+                        <div class="rewards-item rewards-disabled">
+                            <div class="rewards-icon">
+                                <img src="img/icon-expanded-warranty.png" />
+                            </div>
+                            <div class="rewards-text">
+                                <h4>Expanded warranty</h4>
+                                <p>for Platinum members only</p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="badges">
+                            <img src="img/badges-img.png">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- // panel Rewards -->
+
+                <!-- panel Chat -->
+                <div class="tab-pane" id="panelChat">
+
+                    <div class="panel-content">
+
+                        <div class="spc-message">
+                            <div class="chat-operator">
+                                <img src="img/chat-operator.png">
+                            </div>
+
+                            <h2>Hi, Per Andersson!</h2>
+                            <p>My name is Anna, I am your personal assistant. I can help you with any question related to applied loyalty program. </p>
+
+                            <a class="regular-link" href="#">End conversation</a>
+
+                        </div>
+
+                        <div class="chat-panel">
+
+                            <div class="chat-panel-feed">
+
+                                <div class="msg" id="msg1">
+                                    <img src="img/message-green-1.png" />
+                                </div>
+                                <div class="msg" id="msg2">
+                                    <img src="img/message-gray-1.png" />
+                                </div>
+                                <div class="msg" id="msg3">
+                                    <img src="img/message-green-2.png" />
+                                </div>
+                                <div class="msg" id="msg4">
+                                    <img src="img/message-gray-2.png" />
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="chat-write-message">
+                        <div class="input-message">
+                            Write a message
+                            <span class="reply" id="replyText">OK, thank you for your help!</span>
+                            <span class="send-icon" id="sendMsg"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- // panel Chat -->
+
+            </div><!-- /tab-content -->
+        </div><!-- /tabbable -->
+
+    </div> <!--  // slideover2 -->
+
+    <div class="wizard-banner" data-step="1">
+        <div class="step">
+            <strong>Step <span id="stepCurrent">1</span>/<span id="stepAll">8</span>:</strong>
+            <span class="step-name" id="stepName">Welcome</span>
+        </div>
+        <div class="step-description">
+            <strong>Next step:</strong>
+            <span id="stepAction">Click ‘Become a member’ button to proceed.</span>
+        </div>
+        <div class="btn-holder">
+            <a href="#" class="btn btn-default js-button-step">
+                <span class="button-text">
+                    Next step
+                </span>
+                <span class="button-icon icon-next">
+                    <svg role="img" >
+                        <use xlink:href="img/arrowRightCircle.svg#arrowRightCircle"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+    -->
+
+    <script src="js/steps.js"></script>
+    <script src="js/vendor/Chart.bundle.min.js"></script>
+    <script src="js/pie-chart.js"></script>
+
+
+</body>
+</html>
