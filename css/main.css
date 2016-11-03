@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -75,7 +75,7 @@ a.regular-link {
   margin: 24px 30px;
 }
 h2 {
-  font-family: Roboto Slab;
+  font-family: Roboto Slab, Roboto, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -92,7 +92,7 @@ h2 {
   margin-top: 25px;
 }
 h3 {
-  font-family: Roboto Slab;
+  font-family: Roboto Slab, Roboto, Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -103,7 +103,7 @@ h3 {
   margin: 5px 0;
 }
 h4 {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -217,7 +217,7 @@ p {
   display: block;
 }
 .offer-counter span {
-  font-family: Roboto Slab;
+  font-family: Roboto Slab, Roboto, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: bold;
   font-style: normal;
@@ -325,7 +325,7 @@ p {
   line-height: 44px;
   border-radius: 8px;
   background: #ffffff;
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -671,7 +671,7 @@ li.active .tab-icon.menu-logout {
   color: #aeb7c0;
 }
 .c-offers__time-wrapper {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 .c-offers__value-block {
   display: inline-block;
@@ -859,7 +859,8 @@ li.active .tab-icon.menu-logout {
   text-decoration: none;
   height: 40px;
   line-height: 37px;
-  padding: 0 37px;
+  padding: 0;
+  min-width: 136px;
 }
 .wizard-banner .btn-default .button-icon {
   height: 18px;
